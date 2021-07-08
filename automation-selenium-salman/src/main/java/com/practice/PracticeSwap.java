@@ -3,9 +3,8 @@ package com.practice;
 import java.util.Arrays;
 
 public class PracticeSwap {
-	static int a=10;
-	static int b=20;
-public static void getswap(){
+	
+public static void getswap(int a,int b){
 	System.out.println("a value before swap="+a);
 	System.out.println("b value before swap="+b);
 	a=a+b;
